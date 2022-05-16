@@ -12,16 +12,16 @@
   margin-bottom: -20px;
 }
 
-.nextjs {
+.first {
   background: linear-gradient(90deg, #7928ca, #ff0080);
 }
 
-.mongodb {
+.second {
   background: linear-gradient(90deg, rgb(110, 96, 245), rgb(131, 219, 167));
 }
 
-.nextjs,
-.mongodb {
+.first,
+.second {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
