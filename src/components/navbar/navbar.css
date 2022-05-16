@@ -48,6 +48,14 @@
   cursor: pointer;
 }
 
+.gpt3__navbar-sign span {
+  text-transform: capitalize !important;
+}
+
+.gpt3__navbar-menu_container-links-sign span {
+  text-transform: capitalize !important;
+}
+
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
   padding: 0.5rem 1rem;
