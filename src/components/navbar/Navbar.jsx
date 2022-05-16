@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import Button from "@mui/material/Button";
 
 import "./navbar.css";
 
@@ -21,8 +23,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <Button type="button" startIcon={<GitHubIcon />}>
+          <span>Access with Github</span>
+        </Button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
@@ -44,22 +47,11 @@ const Navbar = () => {
               <p>
                 <a href="#home">Home</a>
               </p>
-              <p>
-                <a href="#wgpt3">What is GPT3?</a>
-              </p>
-              <p>
-                <a href="#possibility">Open AI</a>
-              </p>
-              <p>
-                <a href="#features">Case Studies</a>
-              </p>
-              <p>
-                <a href="#blog">Library</a>
-              </p>
             </div>
             <div className="gpt3__navbar-menu_container-links-sign">
-              <p>Sign in</p>
-              <button type="button">Sign up</button>
+              <Button type="button" startIcon={<GitHubIcon />}>
+                <span>Login</span>
+              </Button>
             </div>
           </div>
         )}
