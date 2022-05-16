@@ -40,9 +40,10 @@ export default function Landing() {
       <AppBar position="relative">
         <Toolbar>
           {/* <CameraIcon sx={{ mr: 2 }} /> */}
-          <Typography variant="h6" color="inherit" noWrap>
+          <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
             ExpressMe
           </Typography>
+          <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
       <main>
