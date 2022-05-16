@@ -12,6 +12,18 @@ const Hero = () => {
           <span>with</span>
           <span className={styles.second}>Github</span>
         </h1>
+        <Container justifyContent="center">
+          <div className={styles.github_input_container}>
+            <input
+              type="text"
+              placeholder="Your Github Account"
+              className={styles.github_input}
+            />
+            <button type="button" className={styles.button}>
+              Get Started
+            </button>
+          </div>
+        </Container>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
             <Link passHref href="/feed">

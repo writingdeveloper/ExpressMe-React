@@ -47,3 +47,17 @@
   text-align: center;
   margin: 8px 0 64px;
 }
+
+.github_input_container {
+  margin: 0 0 64px 0;
+}
+
+.github_input {
+  background-color: bisque;
+  color: black;
+  height: 50px;
+  padding: 0px 25px;
+  min-width: 200px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
