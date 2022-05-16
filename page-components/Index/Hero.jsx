@@ -27,13 +27,15 @@ const Hero = () => {
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
             <Link passHref href="/feed">
-              <ButtonLink className={styles.button}>Explore Feed</ButtonLink>
+              <ButtonLink className={styles.button}>
+                Explore portfolio
+              </ButtonLink>
             </Link>
           </Container>
           <Spacer axis="horizontal" size={1} />
           <Container>
             <ButtonLink
-              href="https://github.com/hoangvvo/nextjs-mongodb-app"
+              href="https://github.com/writingdeveloper/ExpressMe-React"
               type="secondary"
               className={styles.button}
             >
@@ -41,9 +43,9 @@ const Hero = () => {
             </ButtonLink>
           </Container>
         </Container>
+        <p className={styles.subtitle}>Simple is Best</p>
         <p className={styles.subtitle}>
-          A Next.js and MongoDB web application, designed with simplicity for
-          learning and real-world applicability in mind.
+          Easily create your developer portfolio with just a Github account
         </p>
       </div>
     </Wrapper>
