@@ -13,7 +13,7 @@ import Container from '@mui/material/Container';
 // import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 const theme = createTheme();
 
@@ -22,7 +22,7 @@ export default function Portfolio() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <main>
-        {/* Hero unit */}
+        {/* Hero unit
         <Box
           sx={{
             bgcolor: 'background.paper',
@@ -60,12 +60,12 @@ export default function Portfolio() {
               <Button variant="outlined">Secondary action</Button>
             </Stack>
           </Container>
-        </Box>
-        <Container sx={{ py: 8 }} maxWidth="md">
+        </Box> */}
+        <Container sx={{ py: 8 }} maxWidth="false">
           {/* End hero unit */}
           <Grid container spacing={4}>
             {cards.map((card) => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
+              <Grid item key={card} xs={12} sm={6} md={3}>
                 <Card
                   sx={{
                     height: '100%',
